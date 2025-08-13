@@ -47,7 +47,7 @@ const Contact = () => {
                         <br />
                         Dsn 1 Madiun Desa Rengas,Kec. Bekri, Kab. Lampung Tengah
                         <br />
-                        Jawa Timur, Indonesia 65162
+                        Lampung, Indonesia
                       </p>
                     </div>
                   </div>
