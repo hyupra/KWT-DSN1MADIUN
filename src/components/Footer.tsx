@@ -1,5 +1,5 @@
-import React from 'react';
-import { Leaf, Heart } from 'lucide-react';
+import React from "react";
+import { Leaf, Heart } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -16,8 +16,8 @@ const Footer = () => {
                 <span className="text-xl font-bold">Kelompok Tani Wanita</span>
               </div>
               <p className="text-[#A5D6A7] mb-4 max-w-md">
-                Memberdayakan wanita desa melalui pertanian berkelanjutan, teknik pertanian inovatif, 
-                dan kolaborasi komunitas sejak 2019.
+                Memberdayakan wanita desa melalui pertanian berkelanjutan,
+                teknik pertanian inovatif, dan kolaborasi komunitas sejak 2019.
               </p>
               <div className="flex items-center space-x-2 text-sm">
                 <span>Dibuat dengan</span>
@@ -30,11 +30,46 @@ const Footer = () => {
             <div>
               <h3 className="text-lg font-semibold mb-4">Tautan Cepat</h3>
               <ul className="space-y-2 text-[#A5D6A7]">
-                <li><a href="#about" className="hover:text-white transition-colors">Tentang Kami</a></li>
-                <li><a href="#management" className="hover:text-white transition-colors">Kepengurusan</a></li>
-                <li><a href="#programs" className="hover:text-white transition-colors">Program</a></li>
-                <li><a href="#gallery" className="hover:text-white transition-colors">Galeri</a></li>
-                <li><a href="#contact" className="hover:text-white transition-colors">Kontak</a></li>
+                <li>
+                  <a
+                    href="#about"
+                    className="hover:text-white transition-colors"
+                  >
+                    Tentang Kami
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#management"
+                    className="hover:text-white transition-colors"
+                  >
+                    Kepengurusan
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#programs"
+                    className="hover:text-white transition-colors"
+                  >
+                    Program
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#gallery"
+                    className="hover:text-white transition-colors"
+                  >
+                    Galeri
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#contact"
+                    className="hover:text-white transition-colors"
+                  >
+                    Kontak
+                  </a>
+                </li>
               </ul>
             </div>
 
@@ -54,7 +89,8 @@ const Footer = () => {
           {/* Bottom Bar */}
           <div className="border-t border-[#81C784]/30 pt-8 text-center">
             <p className="text-[#A5D6A7]">
-              © 2024 Kelompok Tani Wanita. Hak cipta dilindungi. | Membangun masa depan berkelanjutan bersama.
+              © 2025 Wahyu Prayoga. Hak cipta dilindungi. | Membangun masa depan
+              berkelanjutan bersama.
             </p>
           </div>
         </div>
