@@ -1,5 +1,6 @@
 import React from "react";
 import { ArrowDown } from "lucide-react";
+import { TypeAnimation } from "react-type-animation";
 
 const Hero = () => {
   const scrollToAbout = () => {
@@ -18,9 +19,20 @@ const Hero = () => {
 
       <div className="container mx-auto px-4 text-center text-white relative z-10">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in-up">
-            Memberdayakan
-            <span className="block text-[#A5D6A7]">Wanita Desa</span>
+          <h1 className="text-5xl md:text-7xl font-bold mb-6">
+            <TypeAnimation
+              sequence={[
+                "Memberdayakan",
+                1000,
+                "Memberdayakan Wanita",
+                1000,
+                "Memberdayakan Wanita Desa",
+                2000,
+              ]}
+              wrapper="span"
+              speed={50}
+              repeat={Infinity}
+            />
           </h1>
           <p className="text-xl md:text-2xl mb-8 opacity-90 animate-fade-in-up animation-delay-200">
             Melalui pertanian berkelanjutan, inovasi, dan kolaborasi komunitas,
