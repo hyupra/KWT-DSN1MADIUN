@@ -22,11 +22,11 @@ const Hero = () => {
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
             <TypeAnimation
               sequence={[
-                "Memberdayakan",
+                "Tumbuh Bersama",
                 1000,
-                "Memberdayakan Wanita",
+                "Sejahtera Bersama",
                 1000,
-                "Memberdayakan Wanita Desa",
+                "Tani Wanita",
                 2000,
               ]}
               wrapper="span"
