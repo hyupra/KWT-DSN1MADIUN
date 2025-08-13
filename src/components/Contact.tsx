@@ -1,5 +1,14 @@
-import React from 'react';
-import { MapPin, Phone, Mail, MessageCircle, Facebook, Instagram, Twitter, Send } from 'lucide-react';
+import React from "react";
+import {
+  MapPin,
+  Phone,
+  Mail,
+  MessageCircle,
+  Facebook,
+  Instagram,
+  Twitter,
+  Send,
+} from "lucide-react";
 
 const Contact = () => {
   return (
@@ -12,8 +21,9 @@ const Contact = () => {
             </h2>
             <div className="w-24 h-1 bg-[#81C784] mx-auto mb-8"></div>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Siap bergabung dengan misi kami atau ingin tahu lebih banyak tentang program kami? 
-              Kami ingin mendengar dari Anda dan menyambut anggota baru ke komunitas kami yang berkembang.
+              Siap bergabung dengan misi kami atau ingin tahu lebih banyak
+              tentang program kami? Kami ingin mendengar dari Anda dan menyambut
+              anggota baru ke komunitas kami yang berkembang.
             </p>
           </div>
 
@@ -21,8 +31,10 @@ const Contact = () => {
             {/* Contact Information */}
             <div className="space-y-8">
               <div>
-                <h3 className="text-2xl font-bold text-[#2E7D32] mb-6">Informasi Kontak</h3>
-                
+                <h3 className="text-2xl font-bold text-[#2E7D32] mb-6">
+                  Informasi Kontak
+                </h3>
+
                 <div className="space-y-6">
                   <div className="flex items-start space-x-4">
                     <div className="bg-[#A5D6A7]/20 p-3 rounded-lg">
@@ -31,8 +43,10 @@ const Contact = () => {
                     <div>
                       <h4 className="font-semibold text-gray-800">Alamat</h4>
                       <p className="text-gray-600">
-                        Jl. Pertanian Berkelanjutan No. 123<br />
-                        Desa Sumber Makmur, Kab. Malang<br />
+                        Jl. Brawijaya
+                        <br />
+                        Dsn 1 Madiun Desa Rengas,Kec. Bekri, Kab. Lampung Tengah
+                        <br />
                         Jawa Timur, Indonesia 65162
                       </p>
                     </div>
@@ -44,7 +58,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h4 className="font-semibold text-gray-800">Telepon</h4>
-                      <p className="text-gray-600">+62 812-3456-7890</p>
+                      <p className="text-gray-600">+62 857-8393-1695</p>
                     </div>
                   </div>
 
@@ -54,7 +68,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h4 className="font-semibold text-gray-800">WhatsApp</h4>
-                      <p className="text-gray-600">+62 812-3456-7890</p>
+                      <p className="text-gray-600">+62 857-8393-1695</p>
                     </div>
                   </div>
 
@@ -64,7 +78,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h4 className="font-semibold text-gray-800">Email</h4>
-                      <p className="text-gray-600">info@womenfarmersgroup.com</p>
+                      <p className="text-gray-600">kwtdsn1madiun@gmail.com</p>
                     </div>
                   </div>
                 </div>
@@ -72,7 +86,9 @@ const Contact = () => {
 
               {/* Social Media */}
               <div>
-                <h3 className="text-xl font-bold text-[#2E7D32] mb-4">Ikuti Kami</h3>
+                <h3 className="text-xl font-bold text-[#2E7D32] mb-4">
+                  Ikuti Kami
+                </h3>
                 <div className="flex space-x-4">
                   <a
                     href="#"
@@ -98,8 +114,10 @@ const Contact = () => {
 
             {/* Contact Form */}
             <div className="bg-gradient-to-br from-[#A5D6A7]/20 to-[#81C784]/20 p-8 rounded-2xl">
-              <h3 className="text-2xl font-bold text-[#2E7D32] mb-6">Kirim Pesan kepada Kami</h3>
-              
+              <h3 className="text-2xl font-bold text-[#2E7D32] mb-6">
+                Kirim Pesan kepada Kami
+              </h3>
+
               <form className="space-y-6">
                 <div className="grid md:grid-cols-2 gap-4">
                   <div>
