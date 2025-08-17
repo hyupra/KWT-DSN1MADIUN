@@ -89,8 +89,8 @@ const Footer = () => {
           {/* Bottom Bar */}
           <div className="border-t border-[#81C784]/30 pt-8 text-center">
             <p className="text-[#A5D6A7]">
-              © 2025 Wahyu Prayoga. Hak cipta dilindungi. | Membangun masa depan
-              berkelanjutan bersama.
+              © 2025 WP-kwtdsn1madiun. Hak cipta dilindungi. | Membangun masa
+              depan berkelanjutan bersama.
             </p>
           </div>
         </div>

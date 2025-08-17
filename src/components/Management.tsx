@@ -1,61 +1,51 @@
 import React from "react";
 import { Crown, Users, FileText, DollarSign, Star } from "lucide-react";
 
+// Import foto lokal
+import photo1 from "./gallery/office-worker.png";
+import women from "./gallery/women.png";
+
 const Management = () => {
   const managementTeam = [
     {
-      name: "Sari Indrawati",
-      position: "Ketua",
+      name: "Kepala Kampung Rengas",
+      position: "Pembina",
       icon: Crown,
-      photo:
-        "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400",
+      photo: photo1,
       description:
         "Memimpin perencanaan strategis dan program penjangkauan komunitas. Dengan 8 tahun pengalaman pertanian, beliau memandu visi kami tentang pertanian berkelanjutan dan pemberdayaan wanita.",
     },
     {
-      name: "Dewi Kusuma",
-      position: "Wakil Ketua",
+      name: "Ibu Rifi Agustina",
+      position: "Penasehat",
+      icon: Crown,
+      photo: women,
+      description:
+        "Memimpin perencanaan strategis dan program penjangkauan komunitas. Dengan 8 tahun pengalaman pertanian, beliau memandu visi kami tentang pertanian berkelanjutan dan pemberdayaan wanita.",
+    },
+    {
+      name: "Mudatul Hikmah",
+      position: "Ketua",
+      icon: Crown,
+      photo: women,
+      description:
+        "Memimpin perencanaan strategis dan program penjangkauan komunitas. Dengan 8 tahun pengalaman pertanian, beliau memandu visi kami tentang pertanian berkelanjutan dan pemberdayaan wanita.",
+    },
+    {
+      name: "Laila Trisnawati",
+      position: "Sekretaris",
       icon: Users,
-      photo:
-        "https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg?auto=compress&cs=tinysrgb&w=400",
+      photo: women,
       description:
         "Mengawasi operasional harian dan koordinasi anggota. Spesialis dalam sistem hidroponik dan telah melatih lebih dari 100 wanita dalam teknik pertanian modern.",
     },
     {
-      name: "Rina Anggraini",
+      name: "Ma'rifatun",
       position: "Sekretaris",
       icon: FileText,
-      photo:
-        "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=400",
+      photo: women,
       description:
         "Mengelola dokumentasi, catatan rapat, dan komunikasi dengan mitra eksternal. Memastikan transparansi dan pencatatan yang tepat untuk semua kegiatan kelompok.",
-    },
-    {
-      name: "Maya Sari",
-      position: "Bendahara",
-      icon: DollarSign,
-      photo:
-        "https://images.pexels.com/photos/1181677/pexels-photo-1181677.jpeg?auto=compress&cs=tinysrgb&w=400",
-      description:
-        "Menangani perencanaan keuangan, manajemen anggaran, dan alokasi sumber daya. Memastikan pendanaan berkelanjutan untuk semua program dan distribusi keuntungan yang adil.",
-    },
-    {
-      name: "Lestari Wati",
-      position: "Anggota Inti",
-      icon: Star,
-      photo:
-        "https://images.pexels.com/photos/1239288/pexels-photo-1239288.jpeg?auto=compress&cs=tinysrgb&w=400",
-      description:
-        "Memimpin program pelatihan dan workshop teknis. Ahli dalam budidaya perairan dan praktik perikanan berkelanjutan, membimbing anggota dalam budidaya lele.",
-    },
-    {
-      name: "Sri Mulyani",
-      position: "Anggota Inti",
-      icon: Star,
-      photo:
-        "https://images.pexels.com/photos/1239288/pexels-photo-1239288.jpeg?auto=compress&cs=tinysrgb&w=400",
-      description:
-        "Spesialis dalam pertanian intensif skala kecil dan optimalisasi tanaman. Mengembangkan teknik inovatif untuk memaksimalkan hasil panen di lahan terbatas.",
     },
   ];
 
